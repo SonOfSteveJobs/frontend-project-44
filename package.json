@@ -1,5 +1,6 @@
 {
   "name": "@hexlet/code",
+  "type": "module",
   "version": "1.0.0",
   "description": "Hexlet first project ",
   "main": "index.js",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/SonOfSteveJobs/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/SonOfSteveJobs/frontend-project-44#readme"
-}
+  "homepage": "https://github.com/SonOfSteveJobs/frontend-project-44#readme",
+  "dependencies": {
+    "make": "^0.8.1"
+  },
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+  }
+}  
