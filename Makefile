@@ -9,3 +9,6 @@ publish:
 
 lint:
 	npx eslint .
+
+fixlint: 
+	npx eslint --fix
