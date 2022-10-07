@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-/* eslint linebreak-style: ["error", "windows"] */
+/* eslint linebreak-style: ["error", "unix"] */
 
 const userName = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${userName}!`);
@@ -17,10 +17,11 @@ const askQuestion = () => {
     if (userAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
-      return (console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'`));
+      return (console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`));
     }
   }
-  return `Congratulations, ${userName}`;
+  return console.log(`Congratulations, ${userName}!`);
 };
 
 askQuestion();
+export default askQuestion;
