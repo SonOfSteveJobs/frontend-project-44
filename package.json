@@ -3,6 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Hexlet first project ",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,10 +25,6 @@
     "brain-even": "^0.1.12",
     "make": "^0.8.1",
     "readline-sync": "^1.4.10"
-  },
-  "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
   },
   "devDependencies": {
     "eslint": "^8.24.0",
