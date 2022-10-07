@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 /* eslint linebreak-style: ["error", "windows"] */
 
