@@ -14,21 +14,21 @@ const askQuestionCalc = () => {
     const firstNumber = Math.floor(Math.random() * 50);
     const secondNumber = Math.floor(Math.random() * 25);
 
-    let result;
+    let correctAnswer;
     switch (operationIndex) {
-      case 0: result = `${firstNumber + secondNumber}`; break;
-      case 1: result = `${firstNumber - secondNumber}`; break;
-      case 2: result = `${firstNumber * secondNumber}`; break;
-      default: result = 0; break;
+      case 0: correctAnswer = `${firstNumber + secondNumber}`; break;
+      case 1: correctAnswer = `${firstNumber - secondNumber}`; break;
+      case 2: correctAnswer = `${firstNumber * secondNumber}`; break;
+      default: correctAnswer = 0; break;
     }
 
     console.log(`Question: ${firstNumber} ${operation} ${secondNumber}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (userAnswer === result) {
+    if (userAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
-      return (console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${result}'\nLet's try again, ${userName}!`));
+      return (console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'\nLet's try again, ${userName}!`));
     }
   }
   return console.log(`Congratulations, ${userName}!`);
