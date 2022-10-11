@@ -10,3 +10,15 @@ THIS IS 5 MINI-GAMES I'VE MADE AS HEXLET PROJECT №1
 2 - CALCULATE RESULT OF EXPRESSION
 
 <a href="https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn" target="_blank"><img src="https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn.svg" /></a>
+
+3 - FIND GREATEST COMMON DIVISOR OF GIVEN NUMBERS
+
+[![asciicast](https://asciinema.org/a/4iXO1v09hR5SKwEgeM8MRYDQG.svg)](https://asciinema.org/a/4iXO1v09hR5SKwEgeM8MRYDQG)
+
+4 - FIND MISSING NUMBER OF PROGRESSION
+
+[![asciicast](https://asciinema.org/a/pwUAehb4MUme7z5NsneDcnBBt.svg)](https://asciinema.org/a/pwUAehb4MUme7z5NsneDcnBBt)
+
+5 - CHEK IF NUMBER IS PRIME
+
+[![asciicast](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI.svg)](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI)
