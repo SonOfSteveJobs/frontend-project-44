@@ -9,7 +9,7 @@ THIS IS 5 MINI-GAMES I'VE MADE AS HEXLET PROJECT №1
 
 2 - CALCULATE RESULT OF EXPRESSION
 
-<a href="https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn" target="_blank"><img src="https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn.svg" /></a>
+[![asciicast](https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn.svg)](https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn)
 
 3 - FIND GREATEST COMMON DIVISOR OF GIVEN NUMBERS
 
