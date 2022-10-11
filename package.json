@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/SonOfSteveJobs/frontend-project-44#readme",
   "dependencies": {
-    "brain-even": "^0.1.12",
     "make": "^0.8.1",
     "readline-sync": "^1.4.10"
   },
