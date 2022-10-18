@@ -3,7 +3,7 @@
 
 # Brain Games
 
-### Welcome to the Brain Games. Rules are simple: choose 1 of 5 games, give 3 correct answers in a row and you win. Good luck!
+### Welcome to the Brain Games. This is a set of mini-games for brain development. Rules are simple: choose 1 of 5 games, give 3 correct answers in a row and you win. Good luck!
 
 # Installation
 ```
@@ -12,25 +12,41 @@ sudo npm link
 
 # Games:
 ### Check if number is even
-### Start
+### To run the game type: 
 ```
-brain-even
+$brain-even
 ```
 [![asciicast](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1.svg)](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1)
 
-2 - CALCULATE RESULT OF EXPRESSION
+### Calculate result of expression
+### To run the game type: 
+```
+$brain-calc
+```
 
 [![asciicast](https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn.svg)](https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn)
 
-3 - FIND GREATEST COMMON DIVISOR OF GIVEN NUMBERS
+### Find the greatest common divisor of given number
+### To run the game type: 
+```
+$brain-gcd
+```
 
 [![asciicast](https://asciinema.org/a/4iXO1v09hR5SKwEgeM8MRYDQG.svg)](https://asciinema.org/a/4iXO1v09hR5SKwEgeM8MRYDQG)
 
-4 - FIND MISSING NUMBER OF PROGRESSION
+### Find a missing number of progression
+### To run the game type: 
+```
+$brain-progression
+```
 
 [![asciicast](https://asciinema.org/a/pwUAehb4MUme7z5NsneDcnBBt.svg)](https://asciinema.org/a/pwUAehb4MUme7z5NsneDcnBBt)
 
-5 - CHECK IF NUMBER IS PRIME
+### Check if number is prime
+### To run the game type: 
+```
+$brain-even
+```
 
 [![asciicast](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI.svg)](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI)
 </div>
