@@ -14,9 +14,9 @@
     <li>brain-prime</li>
 <ol>
 
+<h1>Installation:</h1>
+<p>sudo npm link</p>
 </div>
-
-<hr>
 
 1 - CHECK IF NUMBER IS EVEN
 
