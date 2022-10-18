@@ -13,7 +13,9 @@
     <li>brain-progression</li>
     <li>brain-prime</li>
 <ol>
+</div>
 
+<div>
 <h1>Installation:</h1>
 <p>sudo npm link</p>
 </div>
