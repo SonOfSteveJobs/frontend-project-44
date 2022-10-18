@@ -1,9 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SonOfSteveJobs/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/SonOfSteveJobs/frontend-project-44/actions)[![Maintainability](https://api.codeclimate.com/v1/badges/4c0befa2486d42f1061a/maintainability)](https://codeclimate.com/github/SonOfSteveJobs/frontend-project-44/maintainability)
 
-Brain Games
-==============
+# Brain Games
 
+### Welcome to the Brain Games. This is set of five mini-games. Rules are simple: give 3 correct answers in a row and you win. Good luck!
 
 [![asciicast](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1.svg)](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1)
 
