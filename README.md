@@ -11,14 +11,14 @@ sudo npm link
 ```
 
 # Games:
-### Check if number is even
+- ### Check if number is even
 ### To run the game type: 
 ```
 $brain-even
 ```
 [![asciicast](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1.svg)](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1)
 
-### Calculate result of expression
+- ### Calculate result of expression
 ### To run the game type: 
 ```
 $brain-calc
@@ -26,7 +26,7 @@ $brain-calc
 
 [![asciicast](https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn.svg)](https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn)
 
-### Find the greatest common divisor of given number
+- ### Find the greatest common divisor of given number
 ### To run the game type: 
 ```
 $brain-gcd
@@ -34,7 +34,7 @@ $brain-gcd
 
 [![asciicast](https://asciinema.org/a/4iXO1v09hR5SKwEgeM8MRYDQG.svg)](https://asciinema.org/a/4iXO1v09hR5SKwEgeM8MRYDQG)
 
-### Find a missing number of progression
+- ### Find a missing number of progression
 ### To run the game type: 
 ```
 $brain-progression
@@ -42,7 +42,7 @@ $brain-progression
 
 [![asciicast](https://asciinema.org/a/pwUAehb4MUme7z5NsneDcnBBt.svg)](https://asciinema.org/a/pwUAehb4MUme7z5NsneDcnBBt)
 
-### Check if number is prime
+- ### Check if number is prime
 ### To run the game type: 
 ```
 $brain-even
