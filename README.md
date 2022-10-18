@@ -3,7 +3,9 @@
 
 <div style="align-items: center">
 <h1> Brain games </h1>
-<h2>Brain games - set of five mini-games. You choose the game. Game will ask you 3 questions. After 3 correct answers you are a winner!</h2>
+<p style="font-size: 20px">Brain games is a set of five mini-games. Rules are simple: choose a game, answer correctly 3 times in a row and you win, congratulations!</p>
+
+<p>Games:<p>
 
 </div>
 
