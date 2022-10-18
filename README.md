@@ -20,7 +20,10 @@
 <p>sudo npm link</p>
 </div>
 
-1 - CHECK IF NUMBER IS EVEN
+<div>
+<h3>1 - Brain-even</h3>
+<p>Start game:</p>
+<p>$brain-even</p>
 
 [![asciicast](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1.svg)](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1)
 
@@ -39,3 +42,4 @@
 5 - CHECK IF NUMBER IS PRIME
 
 [![asciicast](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI.svg)](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI)
+</div>
