@@ -1,7 +1,11 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SonOfSteveJobs/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/SonOfSteveJobs/frontend-project-44/actions)[![Maintainability](https://api.codeclimate.com/v1/badges/4c0befa2486d42f1061a/maintainability)](https://codeclimate.com/github/SonOfSteveJobs/frontend-project-44/maintainability)
 
-<div style="text-align: center;"><h1> Brain games </h1></div>
+<div style="align-items: center">
+<h1> Brain games </h1>
+<h2>Brain games - set of five mini-games. You choose the game. Game will ask you 3 questions. After 3 correct answers you are a winner!</h2>
+
+</div>
 
 <hr>
 
