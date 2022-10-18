@@ -1,29 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/SonOfSteveJobs/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/SonOfSteveJobs/frontend-project-44/actions)[![Maintainability](https://api.codeclimate.com/v1/badges/4c0befa2486d42f1061a/maintainability)](https://codeclimate.com/github/SonOfSteveJobs/frontend-project-44/maintainability)
 
-<div>
-<h1> Brain games </h1>
-<h3>Brain games is a set of five mini-games. Rules are simple: choose a game, answer correctly 3 times in a row and you win, congratulations!</h3>
+Brain Games
+==============
 
-<p>Games:<p>
-<ol>
-    <li>brain-even</li>
-    <li>brain-calc</li>
-    <li>brain-gcd</li>
-    <li>brain-progression</li>
-    <li>brain-prime</li>
-<ol>
-</div>
-
-<div>
-<h1>Installation:</h1>
-<p>sudo npm link</p>
-</div>
-
-<div>
-<h3>1 - Brain-even</h3>
-<p>Start game:</p>
-<p>$brain-even</p>
 
 [![asciicast](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1.svg)](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1)
 
