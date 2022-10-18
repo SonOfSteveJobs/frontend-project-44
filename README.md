@@ -45,7 +45,7 @@ $brain-progression
 ### 5. Check if number is prime
 To run the game type: 
 ```
-$brain-even
+$brain-prime
 ```
 
 [![asciicast](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI.svg)](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI)
