@@ -3,7 +3,17 @@
 
 # Brain Games
 
-### Welcome to the Brain Games. This is set of five mini-games. Rules are simple: give 3 correct answers in a row and you win. Good luck!
+### Welcome to the Brain Games. Rules are simple: choose 1 of 5 games, give 3 correct answers in a row and you win. Good luck!
+
+Games:
+- brain-even
+- brain-calc
+- brain-gcd
+- brain-progression
+- brain-prime
+
+# Installation
+`sudo npm link`
 
 [![asciicast](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1.svg)](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1)
 
