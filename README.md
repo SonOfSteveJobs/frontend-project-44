@@ -13,7 +13,9 @@ Games:
 - brain-prime
 
 # Installation
-`sudo npm link`
+```
+sudo npm link
+```
 
 [![asciicast](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1.svg)](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1)
 
