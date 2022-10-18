@@ -1,7 +1,7 @@
 import startGame from '../index.js';
-import generateRandomNum from '../random-num-generator.js';
+import generateRandomNum from '../utils.js';
 
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (randomNum) => {
   if (randomNum % 2 === 0) {
@@ -10,7 +10,7 @@ const isEven = (randomNum) => {
   return false;
 };
 
-const chosenGame = () => {
+const getAnswerAndQuestion = () => {
   const question = generateRandomNum(1, 50);
   const correctAnswer = isEven(question) === true ? 'yes' : 'no';
 
@@ -18,7 +18,7 @@ const chosenGame = () => {
 };
 
 const startBrainEven = () => {
-  startGame(rules, chosenGame);
+  startGame(description, getAnswerAndQuestion);
 };
 
 export default startBrainEven;

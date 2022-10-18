@@ -1,7 +1,7 @@
 import startGame from '../index.js';
-import generateRandomNum from '../random-num-generator.js';
+import generateRandomNum from '../utils.js';
 
-const rules = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 
 const calculate = (firstNum, secondNum, operation) => {
   switch (operation) {
@@ -12,7 +12,7 @@ const calculate = (firstNum, secondNum, operation) => {
   }
 };
 
-const chosenGame = () => {
+const getAnswerAndQuestion = () => {
   const operations = ['+', '-', '*'];
   const operation = operations[generateRandomNum(0, operations.length - 1)];
 
@@ -26,7 +26,7 @@ const chosenGame = () => {
 };
 
 const startBrainCalc = () => {
-  startGame(rules, chosenGame);
+  startGame(description, getAnswerAndQuestion);
 };
 
 export default startBrainCalc;

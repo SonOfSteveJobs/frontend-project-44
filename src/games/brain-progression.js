@@ -1,33 +1,39 @@
 import startGame from '../index.js';
-import generateRandomNum from '../random-num-generator.js';
+import generateRandomNum from '../utils.js';
 
-const rules = 'What number is missing in the progression?';
+const description = 'What number is missing in the progression?';
 
-const createProgression = (hiddenNumIndex) => {
+const createProgression = (firstNumber, progressionStep) => {
   const progressionArray = [];
-  const firstNumber = generateRandomNum(1, 9);
   let result = firstNumber;
-  const progressionStep = generateRandomNum(1, 8);
-  for (let i = 0; i < 10; i += 1) {
+
+  const progressionLength = 10;
+
+  for (let i = 0; i < progressionLength; i += 1) {
     result += progressionStep;
     progressionArray.push(result);
   }
-  const hiddenNum = `${progressionArray[hiddenNumIndex]}`;
-  progressionArray[hiddenNumIndex] = '..';
-  const progressionWithHiddenNum = progressionArray.join(' ');
-  return [progressionWithHiddenNum, hiddenNum];
+
+  return progressionArray;
 };
 
-const chosenGame = () => {
+const getAnswerAndQuestion = () => {
+  const firstNumber = generateRandomNum(1, 9);
+  const progressionStep = generateRandomNum(1, 8);
   const hiddenNumIndex = generateRandomNum(0, 9);
 
-  const [question, correctAnswer] = createProgression(hiddenNumIndex);
+  const progression = createProgression(firstNumber, progressionStep);
+  const correctAnswer = `${progression[hiddenNumIndex]}`;
+
+  progression[hiddenNumIndex] = '..';
+
+  const question = progression.join(' ');
 
   return [question, correctAnswer];
 };
 
 const startBrainProgression = () => {
-  startGame(rules, chosenGame);
+  startGame(description, getAnswerAndQuestion);
 };
 
 export default startBrainProgression;

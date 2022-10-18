@@ -1,27 +1,27 @@
 import startGame from '../index.js';
-import generateRandomNum from '../random-num-generator.js';
+import generateRandomNum from '../utils.js';
 
-const rules = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
-const gcd = (firstNum, secondNum) => {
+const getGcd = (firstNum, secondNum) => {
   if (!secondNum) {
     return firstNum;
   }
-  return gcd(secondNum, firstNum % secondNum);
+  return getGcd(secondNum, firstNum % secondNum);
 };
 
-const chosenGame = () => {
+const getAnswerAndQuestion = () => {
   const firstNum = generateRandomNum(1, 50);
   const secondNum = generateRandomNum(1, 30);
 
   const question = `${firstNum} ${secondNum}`;
-  const correctAnswer = `${gcd(firstNum, secondNum)}`;
+  const correctAnswer = `${getGcd(firstNum, secondNum)}`;
 
   return [question, correctAnswer];
 };
 
 const startBrainGcd = () => {
-  startGame(rules, chosenGame);
+  startGame(description, getAnswerAndQuestion);
 };
 
 export default startBrainGcd;
