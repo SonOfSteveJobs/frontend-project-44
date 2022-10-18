@@ -6,13 +6,13 @@
 <h3>Brain games is a set of five mini-games. Rules are simple: choose a game, answer correctly 3 times in a row and you win, congratulations!</h3>
 
 <p>Games:<p>
-<li>
-    <ol>brain-even</ol>
-    <ol>brain-calc</ol>
-    <ol>brain-gcd</ol>
-    <ol>brain-progression</ol>
-    <ol>brain-prime</ol>
-<li>
+<ol>
+    <li>brain-even</li>
+    <li>brain-calc</li>
+    <li>brain-gcd</li>
+    <li>brain-progression</li>
+    <li>brain-prime</li>
+<ol>
 
 </div>
 
