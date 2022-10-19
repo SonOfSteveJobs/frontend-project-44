@@ -16,7 +16,7 @@ To run the game type:
 ```
 $brain-even
 ```
-[![asciicast](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1.svg)](https://asciinema.org/a/tBSTlxf8Gi5h3Q23KFKWbfUQ1)
+[![asciicast](https://asciinema.org/a/CcHfIpDynaCw3W4KHBs6CQAZc.svg)](https://asciinema.org/a/CcHfIpDynaCw3W4KHBs6CQAZc)
 
 ### 2. Calculate result of expression
 To run the game type: 
@@ -24,7 +24,7 @@ To run the game type:
 $brain-calc
 ```
 
-[![asciicast](https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn.svg)](https://asciinema.org/a/cWtgMoNCD7e7L6nytlUCOrfTn)
+[![asciicast](https://asciinema.org/a/CMT3jKeUDIXz0QRb12KE2jsTS.svg)](https://asciinema.org/a/CMT3jKeUDIXz0QRb12KE2jsTS)
 
 ### 3. Find the greatest common divisor of given number
 To run the game type: 
@@ -32,7 +32,7 @@ To run the game type:
 $brain-gcd
 ```
 
-[![asciicast](https://asciinema.org/a/4iXO1v09hR5SKwEgeM8MRYDQG.svg)](https://asciinema.org/a/4iXO1v09hR5SKwEgeM8MRYDQG)
+[![asciicast](https://asciinema.org/a/IxrzZqWtkzQziz8NAwrfECi69.svg)](https://asciinema.org/a/IxrzZqWtkzQziz8NAwrfECi69)
 
 ### 4. Find a missing number of progression
 To run the game type: 
@@ -40,7 +40,7 @@ To run the game type:
 $brain-progression
 ```
 
-[![asciicast](https://asciinema.org/a/pwUAehb4MUme7z5NsneDcnBBt.svg)](https://asciinema.org/a/pwUAehb4MUme7z5NsneDcnBBt)
+[![asciicast](https://asciinema.org/a/333fsKLr6UOn8EPmpY4BJOIli.svg)](https://asciinema.org/a/333fsKLr6UOn8EPmpY4BJOIli)
 
 ### 5. Check if number is prime
 To run the game type: 
@@ -48,5 +48,4 @@ To run the game type:
 $brain-prime
 ```
 
-[![asciicast](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI.svg)](https://asciinema.org/a/ky04gOM1vwlVJ5OchtGIo2JSI)
-</div>
+[![asciicast](https://asciinema.org/a/lgVHldeXuAWK9x3BDRnJGP3RO.svg)](https://asciinema.org/a/lgVHldeXuAWK9x3BDRnJGP3RO)
